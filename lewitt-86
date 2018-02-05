@@ -1,0 +1,10 @@
+// number of lines reduced from 10,000 to 1,000 for visibility
+noFill();
+var x = 0;
+while (x < 1000) {
+  var x1 = random(width);
+  var y1 = random(height);
+  var angle = random(2*PI);
+  line(x1,y1,x1+25*cos(angle),y1+25*sin(angle));
+  x = x+1;
+}
