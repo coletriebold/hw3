@@ -1,0 +1,5 @@
+colorMode(HSB);
+stroke(0,0,100);
+background(210,67,57);
+fill(0,0,0);
+rect(width/4,height/4,height/2,width/2);
